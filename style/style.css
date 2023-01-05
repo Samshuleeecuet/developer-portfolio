@@ -175,7 +175,7 @@ main{
     left: 20%;
     top: 150px;
     height: 300px;
-    width: 1100px;
+    width: 1000px;
     display: flex;
 }
 .appbox{
@@ -195,4 +195,46 @@ main{
 }
 .app-des{
     margin-top: 10px;
+}
+
+
+/*resume*/
+
+.resume{
+    position: relative;
+    left: 15%;
+    top: 250px;
+    height: 300px;
+    width: 1000px;
+}
+.resume-title{
+    text-align: center;
+}
+.resume-details{
+ display: flex;
+ margin-top: 30px;
+}
+.education-part{
+    margin-right: 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.subject{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(181, 180, 180);
+}
+.sub-ins{
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(181, 181, 181, 0.793) ;
+    margin-bottom: 10px;
+}
+#last-sub{
+    border-bottom: 0px;
+}
+
+footer{
+    position: relative;
+    left: 15%;
+    top: 700px;
 }
