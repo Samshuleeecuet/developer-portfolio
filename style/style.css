@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.primarycolour{
+ color:#FD6E0A;
+}
+.bgcolour{
+    background-color:#FD6E0A;
+    color: white;
+}
+/* Navbar */
+
+.footer-bg{
+    background-image: url("/images/developer.png");
+    background-position-x: 20px;
+    background-size:contain;
+    background-repeat: no-repeat,no-repeat;
+    margin-top: -30px;
+    background-color: #FFF8F3;
+    
+}
+
+.navtitle{
+    font-size: 40pt;
+}
+.navbar{
+    padding-top: 50px;
+    margin:30px 0px 30px 230px ;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 20px;
+    font-size: 15pt;
+    position: relative;
+    top: 20px;
+}
+.list1{
+    padding-right: 0px;
+}
+.list2{
+    padding-right: 70px;
+}
+.btnprimary{
+    height: 35px;
+    border: 1px #FD6E0A;
+    font-size: 10pt;
+    position: relative;
+    right: 55px;
+    border-radius: 5px;
+    padding:0px 10px;
+    font-weight: 400;
+}
+
+/* main section*/
+main{
+    margin:30px 0px 30px 230px ;
+    display: flex;
+}
+
+/* left side */
+
+.leftside{
+    height: 450px;
+    width: 50%;
+}
+.lefttitle{
+    font-weight: bold;
+    font-size: 20pt;
+}
+.leftname{
+    font-weight: bold;
+    font-size: 30pt;
+}
+.leftpara{
+    color: lightgrey;
+    margin-top: 20px;
+}
+.rightside{
+    height: 450px;
+    width: 50%;
+    background-image: url("/images/header_bg.png");
+    background-size: cover;
+    
+}
+.btnleft{
+    height: 100px;
+    display: flex;
+}
+.btnsecondary{
+    height: 45px;
+    border: 1px #FD6E0A;
+    margin: 15px 30px;
+    font-size: 12pt;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.btnsecondary i{
+    padding: 0px 10px;
+}
+.leftside p{
+    position: relative;
+    top:100px;
+}
+.leftside .btnsecondary{
+    position: relative;
+    top:100px;
+}
+.rightside img{
+    height: 100%;
+}
+
+
+/*About*/
+
+.aboutme{
+    position:relative;
+    left: 20%;
+    height: 500px;
+    width: 900px;
+    background-color: #FFF8F3;
+}
+.abouts{
+    padding: 100px 100px;
+}
+
+.aboutfirst>h3{
+    text-align: center;
+    font-size:25pt;
+    padding-bottom: 15px;
+}
+.aboutfirst>p{
+    text-align:center;
+    color: rgb(133, 133, 109);
+}
+.aboutsecond{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*what i do*/
+
+.whatido{
+    position: relative;
+    left: 30%;
+    text-align: center;
+    margin-top: 70px;
+    height: 100px;
+    width: 600px;
+}
+.whatido>h3{
+    font-size: 25pt;
+    font-weight: 400;
+}
+.whatido>p{
+    margin-top: 15px;
+    color: rgb(133, 133, 109);
+}
+
+
+/*apps*/
+
+.apps{
+    position: relative;
+    left: 20%;
+    top: 150px;
+    height: 300px;
+    width: 1100px;
+    display: flex;
+}
+.appbox{
+    padding: 30px 15px;
+    width: 200px;
+    height: 270px;
+    margin-right: 20px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.app-image img{
+    height: 25px;
+    width: 25px;
+}
+.app-title{
+    margin-top: 5px;
+}
+.app-des{
+    margin-top: 10px;
+}
