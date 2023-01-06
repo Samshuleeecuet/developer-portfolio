@@ -3,6 +3,7 @@
     border: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 .primarycolour{
  color:#FD6E0A;
@@ -34,7 +35,6 @@
 }
 .navbar ul{
     display: flex;
-    
 }
 .navbar ul li{
     text-decoration: none;
@@ -44,6 +44,7 @@
     position: relative;
     top: 20px;
 }
+
 .list1{
     padding-right: 0px;
 }
@@ -117,6 +118,9 @@ main{
 }
 .rightside img{
     height: 100%;
+    position: relative;
+    right: 30px;
+
 }
 
 
@@ -128,6 +132,7 @@ main{
     height: 500px;
     width: 900px;
     background-color: #FFF8F3;
+    
 }
 .abouts{
     padding: 100px 100px;
@@ -176,6 +181,7 @@ main{
     top: 150px;
     height: 300px;
     width: 1000px;
+    
     display: flex;
 }
 .appbox{
@@ -202,10 +208,10 @@ main{
 
 .resume{
     position: relative;
-    left: 15%;
+    left: 18%;
     top: 250px;
     height: 300px;
-    width: 1000px;
+    width: 1200px;;
 }
 .resume-title{
     text-align: center;
@@ -218,6 +224,7 @@ main{
     margin-right: 20px;
     padding: 10px 20px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    width: 500px;
 }
 .subject{
     margin-top: 10px;
@@ -232,9 +239,56 @@ main{
 #last-sub{
     border-bottom: 0px;
 }
-
+.btncv{
+    text-align: center;
+    position: relative;
+    top: 650px;
+}
 footer{
     position: relative;
-    left: 15%;
-    top: 700px;
+    top: 750px;
+    background-color: #FFF8F3;
+    display: flex;
+}
+.leftfooter, .rightfooter{
+    margin:0px  100px;
+    padding-top: 100px;
+}
+.leftfooter>h2,.rightfooter>h2{
+ margin-bottom: 10px;
+}
+.icon ul{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    
+}
+.icon ul li{
+    padding-right: 20px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+.icon ul li img{
+
+   height: 30px;
+   padding: 10px;
+   width: 30px;
+   border: 1px solid salmon;
+   border-radius: 25%;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 250px;
+}
+form input,textarea{
+    border-style: hidden;
+}
+input,textarea:focus{
+    outline: none;
+}
+form>button{
+    width: 100px;
 }
