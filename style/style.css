@@ -52,14 +52,16 @@
     padding-right: 70px;
 }
 .btnprimary{
-    height: 35px;
+    height: 45px;
     border: 1px #FD6E0A;
-    font-size: 10pt;
+    font-size: 12pt;
     position: relative;
     right: 55px;
+    bottom: 8px;
     border-radius: 5px;
     padding:0px 10px;
     font-weight: 400;
+    width: 100px;
 }
 
 /* main section*/
